@@ -1,27 +1,95 @@
+
 .BImg {
     background-image: url(../asset/bgtexture.jpg);
 }
 .NP {
     padding-top: 2rem;
-}
-.AM{
-    padding-top: 2rem;
-    padding-left: 2.2rem;
+    font-family: 'Fugaz One', cursive;
 }
 .GR {
     background-color: white;  
-    padding-top: 2rem;
     color: #5F002B;
-    font-family: montauk;
-    
+    font-family: 'Fugaz One', cursive;
+    /* padding-left: 0px !important;
+    padding-right: 0px !important; */
+}
+.nav-link{
+    color: #5F002B;
+}
+.LG{
+    padding-top: 1rem;
+}
+.AM{
+    padding-top: 2rem;
 }
 .FS {
-    font-size: 12px;
+    font-size: 14.5px;
     color: #5F002B;
-    font-family: montauk;
+    font-family:  Montauk-Regular;
 }
 .OT{
    color: #5F002B;
     background-color: white;
+    
+}
+.TO{
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+}
+.CL{
+    display: flex;
+    justify-content: end;
+    padding-top: 1.5rem;
+    color: #5F002B;
+    font-family:  Montauk-Regular;
+    padding-left: 2rem;
+
+}
+.IM{
+    padding-left: 9rem;
+}
+.MS{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    color: #5F002B;
+    font-family:  Montauk-Regular;
+    
+}
+.card-title{
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+}
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: 'Fugaz One', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap);
+}
+.card-text{
+    color: #5F002B;
+    font-family:  Montauk-Regular;
+}
+.OP{
+    padding-top: 1rem;
+    color: #5F002B;
+    font-family:  Montauk-Regular;
+}
+.HY{
+    background-color: white;
+    width: 190%;
+}
+.KB{
+    padding-top: 1.5rem;
+    color: #5F002B;
+    font-family:  Montauk-Regular;
+}
+.KI{
+    border: white 10px solid;
 }
 
+.row>* {
+    padding-right: 0px !important;
+}
