@@ -18,10 +18,12 @@ body{
 }
 
 .headerContainer{
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 5%;
+    padding-right: 5%; */
     padding-bottom: 56px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .menuContainer{
@@ -32,7 +34,7 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 1384px;
 }
 
 .footerContainer{
@@ -225,4 +227,48 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 479px) {
+    html{
+        width: 100%;
+    }
+
+    .priceRow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .priceLol{
+        padding-left: 5%;
+    }
+
+    .hiddenText2{
+        display: none;
+    }
+
+    .footerRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .montauk20Red2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .montauk20Red3{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footerPicBox{
+        justify-content: center;
+    }
+
+    .menuBox4{
+        padding-bottom: 50px;
+    }
 }
