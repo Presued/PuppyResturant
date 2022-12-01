@@ -13,7 +13,7 @@
     src: url(../assets/Fugaz_One/FugazOne-Regular.ttf);
 }
 
-body{
+.marcelBody{
     background-image: url(../assets/bgtexture.jpg);
 }
 
@@ -224,6 +224,20 @@ body{
 }
 
 .lolol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cateringPic{
+    width: 100%;
+}
+
+.cateringPicBox{
+    width: 1384px;
+}
+
+.cateringContainer{
     width: 100%;
     display: flex;
     justify-content: center;
