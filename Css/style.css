@@ -1,20 +1,20 @@
 @font-face {
     font-family: MontaukRegular;
-    src: url(../assets/Montauk-Regular/Montauk-Regular.otf);
+    src: url(../asset/Montauk-Regular/Montauk-Regular.otf);
 }
 
 @font-face {
     font-family: MontaukLight;
-    src: url(../assets/Montauk-Regular/Montauk-Light.otf);
+    src: url(../asset/Montauk-Regular/Montauk-Light.otf);
 }
 
 @font-face {
     font-family: FugazOne;
-    src: url(../assets/Fugaz_One/FugazOne-Regular.ttf);
+    src: url(../asset/Fugaz_One/FugazOne-Regular.ttf);
 }
 
 .marcelBody{
-    background-image: url(../assets/bgtexture.jpg);
+    background-image: url(../asset/bgtexture.jpg);
 }
 
 .headerContainer{
