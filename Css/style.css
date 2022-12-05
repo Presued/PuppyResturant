@@ -30,12 +30,15 @@
 .OT{
    color: #5F002B;
     background-color: white;
-    
+
+    height: 120%;
 }
 .TO{
     font-size: 30px;
     font-family: 'Fugaz One', cursive;
     color: #5F002B;
+    padding-top: 1rem;
+
 }
 .CL{
     display: flex;
@@ -79,7 +82,7 @@
 }
 .HY{
     background-color: white;
-    width: 190%;
+    margin-bottom: 1rem;
 }
 .KB{
     padding-top: 1.5rem;
@@ -88,6 +91,8 @@
 }
 .KI{
     border: white 10px solid;
+      margin-top: 2%; 
+     margin-bottom: 2%;  
 }
 
 .row>* {
