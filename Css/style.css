@@ -95,8 +95,10 @@
      margin-bottom: 2%;  
 }
 
-.row>* {
+/* .row>* {
     padding-right: 0px !important;
+} */
+
 @font-face {
     font-family: MontaukRegular;
     src: url(../asset/Montauk-Regular/Montauk-Regular.otf);
