@@ -97,4 +97,418 @@
 
 .row>* {
     padding-right: 0px !important;
+@font-face {
+    font-family: MontaukRegular;
+    src: url(../asset/Montauk-Regular/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: MontaukLight;
+    src: url(../asset/Montauk-Regular/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: FugazOne;
+    src: url(../asset/Fugaz_One/FugazOne-Regular.ttf);
+}
+
+.marcelBody{
+    background-image: url(../asset/bgtexture.jpg);
+}
+
+.headerContainer{
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding-bottom: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuContainer{
+    width: 100%;
+}
+
+.headerBox{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 1384px;
+}
+
+.footerContainer{
+    width: 100%;
+}
+
+.headerText{
+    display: flex;
+    justify-content: center;
+    color: #5F002B;
+    font-family: FugazOne;
+}
+
+.menuRow{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menuPic{
+    width: 100%;
+}
+
+.menuBox1{
+    width: 700px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.menuBox2{
+    width: 700px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.menuBox3{
+    width: 700px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.menuBox4{
+    width: 700px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 126px;
+}
+
+.beefSandwiches{
+    font-size: 30px;
+    font-family: FugazOne;
+    color: #5F002B;
+    padding-left: 4%;
+    margin-top: 23px;
+}
+
+.montauk20Red{
+    font-size: 20px;
+    font-family: MontaukRegular;
+    color: #5F002B;
+    width: 85%;
+    padding-left: 5%;
+    padding-right: 0px;
+}
+
+.montauk20Red4{
+    font-size: 20px;
+    font-family: MontaukRegular;
+    color: #5F002B;
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 0px;
+    margin-bottom: 46px;
+}
+
+.montauk35Red{
+    font-size: 35px;
+    font-family: MontaukLight;
+    color: #5F002B;
+    width: 85%;
+    padding-left: 5%;
+}
+
+.hiddenText{
+    color: white;
+    font-size: 35px;
+    font-family: MontaukLight;
+}
+
+.hiddenText2{
+    color: white;
+    font-size: 20px;
+    font-family: MontaukRegular;
+}
+
+.beefText{
+    /* display: flex;
+    justify-content: center; */
+    background-color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.seafoodText{
+    /* display: flex;
+    justify-content: center; */
+    background-color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.meatText{
+    /* display: flex;
+    justify-content: center; */
+    background-color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dessertsText{
+    /* display: flex;
+    justify-content: center; */
+    background-color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.priceLol{
+    width: 10%;
+    font-size: 35px;
+    font-family: MontaukLight;
+    color: #5F002B;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.priceRow{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footerPic{
+    width: 100px;
+    height: 32px;
+    display: flex;
+    justify-content: end;
+}
+
+.footerPicBox{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.montauk20Red2{
+    font-size: 20px;
+    font-family: MontaukRegular;
+    color: #5F002B;
+    width: 50%;
+}
+
+.montauk20Red3{
+    font-size: 20px;
+    font-family: MontaukRegular;
+    color: #5F002B;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.line1{
+    border-top: 1px solid #980051;
+    width: 90%;
+}
+
+.lolol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cateringPic{
+    width: 100%;
+}
+
+.cateringPicBox{
+    width: 1384px;
+    padding-bottom: 90px;
+}
+
+.cateringPicandTextBox{
+    width: 1384px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cateringPic2{
+    width: 100%;
+    height: 100%;
+}
+
+.cateringPic2Box
+{
+    width: 600px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.textBox{
+    background-color: white;
+    width: 845px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.textHeader{
+    font-size: 26px;
+    color: #5F002B;
+    font-family: FugazOne;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.textBody{
+    font-size: 17px;
+    color: #5F002B;
+    font-family: MontaukLight;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pic1Box
+{
+    width: 450px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pic2Box
+{
+    width: 450px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pic3Box
+{
+    width: 450px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pic1{
+    width: 100%;
+}
+
+.pic2{
+    width: 100%;
+}
+
+.pic3{
+    width: 100%;
+}
+
+
+.cateringContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catering1Row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.catering2Row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.catering3Row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 61px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .cateringPicandTextBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cateringPicBox{
+        padding-bottom: 25px;
+    }
+
+    .cateringPic2Box{
+        width: 100%;
+        padding: 0;
+    }
+
+    .textBox{
+        width: 100%;
+    }
+
+    .headerContainer{
+        padding-bottom: 25px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    html{
+        width: 100%;
+    }
+
+    .priceRow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .priceLol{
+        padding-left: 5%;
+    }
+
+    .hiddenText2{
+        display: none;
+    }
+
+    .footerRow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .montauk20Red2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .montauk20Red3{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footerPicBox{
+        justify-content: center;
+    }
+
+    .menuBox4{
+        padding-bottom: 50px;
+    }
 }
