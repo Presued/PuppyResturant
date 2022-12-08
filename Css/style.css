@@ -37,10 +37,7 @@
     color: #5F002B;
     background-color: white;
 
-<<<<<<< HEAD
-=======
     height: 120%;
->>>>>>> 22a1ba0a94fc9572b294f929e4c6a1475b7e9751
 }
 
 .TO {
@@ -118,6 +115,7 @@
 
 /* .row>* {
     padding-right: 0px !important;
+    
 /* LerissasPage */
 
 .backgroundPic {
@@ -217,7 +215,9 @@
 
 .streetRow {
     padding-left: 0.1rem;
-} */
+} 
+
+*/
 @font-face {
     src: url(../asset/Montauk-Regular/Montauk-Regular.otf);
 }
