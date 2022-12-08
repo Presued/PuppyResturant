@@ -118,9 +118,6 @@
 
 /* .row>* {
     padding-right: 0px !important;
-<<<<<<< HEAD
-}
-
 /* LerissasPage */
 
 .backgroundPic {
@@ -220,11 +217,8 @@
 
 .streetRow {
     padding-left: 0.1rem;
-=======
 } */
-
 @font-face {
-    font-family: MontaukRegular;
     src: url(../asset/Montauk-Regular/Montauk-Regular.otf);
 }
 
@@ -637,5 +631,4 @@
     .menuBox4{
         padding-bottom: 50px;
     }
->>>>>>> 22a1ba0a94fc9572b294f929e4c6a1475b7e9751
 }
